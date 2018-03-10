@@ -1,9 +1,16 @@
 #pragma once
 
+// define bitnote settings
+#define AEON_MEMORY (1 << 19)
+#define AEON_MASK 0x7FFF0
+#define AEON_ITER 0x80000
+
 // define aeon settings
+/*
 #define AEON_MEMORY 1048576llu
 #define AEON_MASK 0xFFFF0
 #define AEON_ITER 0x40000
+*/
 
 // define xmr settings
 #define MONERO_MEMORY 2097152llu
